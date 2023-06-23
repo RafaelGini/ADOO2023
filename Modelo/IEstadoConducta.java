@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -12,12 +13,12 @@ public class IEstadoConducta {
 
 	public void actualizarEstado() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void enviarNotificacion() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
