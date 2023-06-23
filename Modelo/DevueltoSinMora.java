@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -8,17 +9,12 @@ public class DevueltoSinMora implements EstadoPrestamo {
 
 	public void finalizarPrestamo() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void sumarDevoluciones() {
 		// TODO implement here
-		return null;
-	}
-
-	public void finalizarPrestamo() {
-		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
