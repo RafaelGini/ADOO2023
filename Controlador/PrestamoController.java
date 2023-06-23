@@ -1,5 +1,10 @@
 
+package controladores;
+
 import java.util.*;
+
+import modelo.Ejemplar;
+import modelo.Prestamo;
 
 public class PrestamoController {
 
@@ -11,7 +16,7 @@ public class PrestamoController {
 
 	public void modificarPlazoPrestamo(Ejemplar ejemplar, int plazo) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public Prestamo crearPrestamo(Ejemplar ejemplar) {
@@ -21,12 +26,8 @@ public class PrestamoController {
 
 	public void finalizarPrestamo(int idPrestamo) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
-	public void finalizarPrestamo(int idEjemplar) {
-		// TODO implement here
-		return null;
-	}
 
 }
