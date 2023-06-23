@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -15,13 +16,6 @@ public class RevistaEspecializada extends Ejemplar {
 
 	public void setPlazoPrestamo(int plazo) {
 		// TODO implement here
-		return null;
+		return ;
 	}
-
-	public abstract int getPlazoPrestamo();
-
-	public abstract void setPlazoPrestamo(int plazo);
-
-	public abstract void setPlazoPrestamo(int plazo);
-
 }
