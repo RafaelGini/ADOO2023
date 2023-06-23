@@ -1,7 +1,8 @@
+package modelo;
 
 import java.util.*;
 
-public abstract class Ejemplar extends Libro implements SistemaExternoAdapter {
+public class Ejemplar extends Libro implements SistemaExternoAdapter {
 
 	public Ejemplar() {
 	}
@@ -18,19 +19,17 @@ public abstract class Ejemplar extends Libro implements SistemaExternoAdapter {
 
 	private SistemaExternoAdapter adaptadorUbicacion;
 
-	private void categoria;
+	private Categoria categoria;
 
 
 
+	public Integer getPlazoPrestamo() {
+		return null;
+	}
 
+	public void setPlazoPrestamo(int plazo) {
+	}
 
-
-
-	public abstract int getPlazoPrestamo();
-
-	public abstract void setPlazoPrestamo(int plazo);
-
-	public abstract void setPlazoPrestamo(int plazo);
 
 	public String getUbicacionFisica() {
 		// TODO implement here
