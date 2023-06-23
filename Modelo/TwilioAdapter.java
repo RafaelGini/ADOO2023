@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -9,18 +10,14 @@ public class TwilioAdapter {
 	private TwilioSDK twilio;
 
 
-
-
-
-
 	public void enviarSMS(Notificacion notificacion) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void enviarWhatsApp(Notificacion notificacion) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
