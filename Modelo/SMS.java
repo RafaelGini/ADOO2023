@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -11,12 +12,7 @@ public class SMS implements EstrategiaNotificacion {
 
 	public void enviarNotificacion(Notificacion notificacion) {
 		// TODO implement here
-		return null;
-	}
-
-	public void enviarNotificacion(Notificacion notificacion) {
-		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
