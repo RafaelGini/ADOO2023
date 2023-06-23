@@ -1,5 +1,10 @@
+package controladores;
 
+import modelo.Ejemplar;
+import modelo.Categoria;
 import java.util.*;
+
+import javax.xml.crypto.Data;
 
 public class EjemplarController {
 
@@ -11,33 +16,19 @@ public class EjemplarController {
 
 	public void altaEjemplar(Categoria categoria, String autor, Date fechaPublicacion, String titulo) {
 		// TODO implement here
-		return null;
+		return;
 	}
 
 	public void modificarPlazoPrestamo(Ejemplar ejemplar, int plazo) {
 		// TODO implement here
-		return null;
+		return;
 	}
 
-	public List<Ejemplar> buscarEjemplares(date fechaPublicacion) {
+	public List<Ejemplar> buscarEjemplares(Data fechaPublicacion, String autor, String titulo, Categoria categoria) {
 		// TODO implement here
 		return null;
 	}
 
-	public List<Ejemplar> buscarEjemplares(String autor) {
-		// TODO implement here
-		return null;
-	}
-
-	public List<Ejemplar> buscarEjemplares(String titulo) {
-		// TODO implement here
-		return null;
-	}
-
-	public List<Ejemplar> buscarEjemplares(void categoria) {
-		// TODO implement here
-		return null;
-	}
 
 	public Ejemplar buscarEjemplar(int idEjemplar) {
 		// TODO implement here
@@ -50,7 +41,7 @@ public class EjemplarController {
 
 	public void bajaEjemplar(int idEjemplar) {
 		// TODO implement here
-		return null;
+		return;
 	}
 
 }
