@@ -1,3 +1,4 @@
+package modelo;
 
 public enum Categoria {
 	LIBRO,
