@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Socio {
 
 	public List<Prestamo> prestamos;
 
-	private List<int> idsDePrestamos;
+	private List<Integer> idsDePrestamos;
 
 	private IEstadoConducta estado;
 
@@ -33,30 +34,15 @@ public class Socio {
 	private MedioComunicacion medioCom;
 
 
-
-
-
-
-
-
-
-
-
-
-
 	public int calcularModificacionPlazo() {
 		// TODO implement here
 		return 0;
 	}
 
-	public int calcularModificacionPlazo() {
-		// TODO implement here
-		return 0;
-	}
 
 	public void setEstado(IEstadoConducta estado) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public List<Prestamo> getUltimosPrestamos(int cantidad) {
@@ -66,27 +52,27 @@ public class Socio {
 
 	public void setPrestamosRealizados() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void altaSocio() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void penalizarSocio(int dias) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void bonificarSocio(int dias) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	private void suspender(Boolean bool) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
