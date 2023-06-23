@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -11,12 +12,8 @@ public class WhatsApp implements EstrategiaNotificacion {
 
 	public void enviarNotificacion(Notificacion notificacion) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
-	public void enviarNotificacion(Notificacion notificacion) {
-		// TODO implement here
-		return null;
-	}
 
 }
