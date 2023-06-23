@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -19,16 +20,6 @@ public class Prestamo {
 	private EstadoPrestamo estado;
 
 
-
-
-
-
-
-
-
-
-
-
 	public Date calcularDevolucion(Socio socio, Ejemplar ejemplar) {
 		// TODO implement here
 		return null;
@@ -36,7 +27,7 @@ public class Prestamo {
 
 	public void finalizarPrestamo() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
