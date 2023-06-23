@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -8,7 +9,7 @@ public class Finalizado {
 
 	public void finalizarPrestamo() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
