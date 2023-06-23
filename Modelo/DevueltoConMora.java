@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -8,7 +9,7 @@ public class DevueltoConMora {
 
 	public void devolver() {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
