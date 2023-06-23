@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -13,6 +14,5 @@ public class Notificacion {
 	private Date fecha;
 
 	private Motivo motivo;
-
 
 }
