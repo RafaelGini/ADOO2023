@@ -1,3 +1,4 @@
+package modelo;
 
 import java.util.*;
 
@@ -10,18 +11,13 @@ public class Diario extends Ejemplar {
 
 	public Integer getPlazoPrestamo() {
 		// TODO implement here
-		return null;
+		return null ;
 	}
 
-	public void setPlazoPrestamo(int plazo) {
+	public void setPlazoPrestamo(Integer plazo) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
-	public abstract int getPlazoPrestamo();
-
-	public abstract void setPlazoPrestamo(int plazo);
-
-	public abstract void setPlazoPrestamo(int plazo);
 
 }
