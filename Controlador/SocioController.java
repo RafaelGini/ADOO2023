@@ -1,5 +1,9 @@
+package controladores;
 
 import java.util.*;
+
+import modelo.Prestamo;
+import modelo.Socio;
 
 public class SocioController {
 
@@ -12,7 +16,7 @@ public class SocioController {
 
 	public void altaSocio(int dni, String nombre, String mail, String telefono) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public List<Prestamo> getUltimosPrestamos(int dni) {
@@ -22,12 +26,12 @@ public class SocioController {
 
 	public void cambiarMedioNotificacion(String medio) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 	public void bajaSocio(int dni) {
 		// TODO implement here
-		return null;
+		return ;
 	}
 
 }
