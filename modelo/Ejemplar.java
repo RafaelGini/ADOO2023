@@ -2,6 +2,8 @@ package modelo;
 
 import java.util.*;
 
+import api.SistemaExternoAdapter;
+
 public class Ejemplar implements SistemaExternoAdapter {
 
 	// ATRIBUTOS
@@ -68,5 +70,9 @@ public class Ejemplar implements SistemaExternoAdapter {
 
 	public Categoria getCategory() {
 		return this.categoria;
+	}
+
+	public Date getFecha() {
+		return this.fechaPublicacion;
 	}
 }
